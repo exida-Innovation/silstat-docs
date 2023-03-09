@@ -6,26 +6,27 @@
   Destinations=""
   GlossaryTermConversion="marked"
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
-  PatchHeadingLevels="true"
+  PatchHeadingLevels="false"
   InjectEmptyPages="false"
   MasterToc="/Project/TOCs/User Guide Print.fltoc"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
   MasterStylesheet="/Content/Resources/Stylesheets/Modern.css">
   <PrintedOutput
-    CollapseMargins="false"
-    ExpandingTextConversion="expand"
-    PopupConversion="remove-body"
+    CollapseMargins="true"
+    ExpandingTextConversion="footnote"
+    PopupConversion="footnote"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true" />
+    GenerateGlossaryProxy="false"
+    OutputFormat="doc" />
   <DocumentProperties
-    Title="User Guide"
-    Author="My Name" />
+    Title="SILstat User Guide"
+    Author="exida Innovation LLC"
+    CopyrightStatus="true" />
   <PDF
-    ShowUsedBookmarks="false"
-    InitialMagnification="50"
-    PageLayout="TwoColumnRight"
-    TitleBar="DocumentTitle"
+    ShowUsedBookmarks="true"
+    InitialMagnification="100"
+    TitleBar="FileName"
     CollapsedBookmarks="true"
     CropAndRegistrationMarks="false"
     ConvertToCMYK="true" />

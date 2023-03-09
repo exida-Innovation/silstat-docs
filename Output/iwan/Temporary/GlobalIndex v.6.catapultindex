@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalIndex
-  SavedSource="file:///C:/Users/iwan/Documents/My Projects/SILStat_Dashboard/Output/iwan/Temporary/GlobalIndex v.6.catapultindex">
+  SavedSource="file:///C:/Users/iwan/Documents/GitHub/silstat-docs/Output/iwan/Temporary/GlobalIndex v.6.catapultindex">
   <IndexEntry>
     <Entries>
       <IndexEntry
@@ -51,6 +51,14 @@
     <Url
       Source="0-00 TitlePage/Titlepage.htm" />
     <Url
+      Source="1-00 Part 1/Part_1.htm" />
+    <Url
+      Source="2-00 Part 2/Part_2.htm" />
+    <Url
+      Source="3-00 Part 3/Part_3.htm" />
+    <Url
+      Source="4-00 Part 4/Part_4.htm" />
+    <Url
       Source="A-Introduction-Topics/Getting-Started.htm" />
     <Url
       Source="A-Introduction-Topics/More-Information.htm" />
@@ -78,8 +86,6 @@
       Source="D-Reference/FAQs.htm" />
     <Url
       Source="D-Reference/Tips.htm" />
-    <Url
-      Source="E-Frontmatter-Topics/Title.htm" />
     <Url
       Source="Resources/Graphics/exsilentia 322x55.png" />
     <Url

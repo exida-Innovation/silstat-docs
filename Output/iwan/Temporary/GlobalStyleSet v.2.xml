@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/iwan/Documents/My Projects/SILStat_Dashboard/Output/iwan/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/Users/iwan/Documents/GitHub/silstat-docs/Output/iwan/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="print" />
@@ -475,7 +475,13 @@
     <Tag
       Name="MadCap|pageBreak" />
     <Tag
+      Name="iframe" />
+    <Tag
+      Name="MadCap|testResultsProxy" />
+    <Tag
       Name="MadCap|topicToolbarProxy" />
+    <Tag
+      Name="MadCap|eLearningToolbarProxy" />
     <Tag
       Name="MadCap|miniTocProxy" />
     <Tag
@@ -505,6 +511,12 @@
       Name="MadCap|searchResultsProxy" />
     <Tag
       Name="MadCap|centralAccountProxy" />
+    <Tag
+      Name="MadCap|faqProxy" />
+    <Tag
+      Name="MadCap|knowledgeProxy" />
+    <Tag
+      Name="MadCap|promotionProxy" />
     <Tag
       Name="MadCap|snippetText" />
     <Tag
@@ -617,6 +629,18 @@
       Name="MadCap|codeSnippetBody" />
     <Tag
       Name="MadCap|equation" />
+    <Tag
+      Name="MadCap|question" />
+    <Tag
+      Name="MadCap|multipleChoice" />
+    <Tag
+      Name="MadCap|multipleChoiceItem" />
+    <Tag
+      Name="MadCap|correctFeedback" />
+    <Tag
+      Name="MadCap|incorrectFeedback" />
+    <Tag
+      Name="MadCap|submitQuestionButton" />
   </Map>
   <SourceUrls>
     <Url
@@ -626,10 +650,10 @@
     <Url
       Source="Resources/TableStyles/Alternate-Row-Color.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/xhtml.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 18/Flare.app/Resources/Schemas/xhtml.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditor.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 18/Flare.app/Resources/Schemas/MadCapEditor.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 16/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 18/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
   </SourceUrls>
 </CatapultGlobalStyleCache>
