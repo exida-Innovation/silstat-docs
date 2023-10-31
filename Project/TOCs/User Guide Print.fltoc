@@ -45,6 +45,24 @@
       ReplaceMergeNode="false" />
   </TocEntry>
   <TocEntry
+    Title="1-01 Introduction"
+    BreakType="chapter"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/1-01 Introduction/Introduction.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
     Title="2-00 Part 2"
     BreakType="chapter"
     StartSection="false"
@@ -96,6 +114,25 @@
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       VolumeNumberReset="continue"
       StartSection="false"
+      SectionNumberReset="continue"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
+    Title="5-00 Part 5"
+    BreakType="chapter"
+    VolumeNumberReset="continue"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/5-00 Part 5/Part_5.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="none"
+      VolumeNumberReset="continue"
+      StartSection="false"
+      PageNumberReset="continue"
       SectionNumberReset="continue"
       ChapterNumberReset="continue" />
   </TocEntry>

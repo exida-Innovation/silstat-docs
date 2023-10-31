@@ -4,15 +4,17 @@
   BuildVersion="18.2.8431.26678">
   <Files>
     <Url
+      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_63D01F8E/Resources/Images/Logo.eps" />
+    <Url
+      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_63D01F8E/Resources/Graphics/exsilentia_v4_bolierplate.png" />
+    <Url
+      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_63D01F8E/Resources/Graphics/exida_logo.png" />
+    <Url
       Source="Output/iwan/User Guide Print/User Guide Print.pdf" />
     <Url
-      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_21A8C285/Resources/Graphics/exsilentia_v4_version_no.png" />
+      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_63D01F8E/Resources/Graphics/exsilentia_v4_version_no.png" />
     <Url
-      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_21A8C285/Resources/Images/Hero-Image-Print.png" />
-    <Url
-      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_21A8C285/Resources/Graphics/exsilentia_v4_bolierplate.png" />
-    <Url
-      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_21A8C285/Resources/Images/Logo.eps" />
+      Source="Output/iwan/Temporary/User Guide Print/User Guide Print_63D01F8E/Resources/Images/Hero-Image-Print.png" />
   </Files>
   <Skins />
 </CatapultTargetOutput>

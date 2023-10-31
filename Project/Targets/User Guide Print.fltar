@@ -8,7 +8,6 @@
   ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
-  MasterToc="/Project/TOCs/User Guide Print.fltoc"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
   MasterStylesheet="/Content/Resources/Stylesheets/Modern.css">
   <PrintedOutput

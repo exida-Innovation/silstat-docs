@@ -24,7 +24,7 @@
     Name="UserGuideTitle"
     Comment=""
     OriginalName="PDFGuideTitle"
-    EvaluatedDefinition="SILstat Dashboard User Guide">SILstat Dashboard User Guide</Variable>
+    EvaluatedDefinition="SILstat User Guide">SILstat User Guide</Variable>
   <Variable
     Name="VersionNumber"
     OriginalName="VersionNumberDot"

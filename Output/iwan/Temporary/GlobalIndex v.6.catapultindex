@@ -53,11 +53,15 @@
     <Url
       Source="1-00 Part 1/Part_1.htm" />
     <Url
+      Source="1-01 Introduction/Introduction.htm" />
+    <Url
       Source="2-00 Part 2/Part_2.htm" />
     <Url
       Source="3-00 Part 3/Part_3.htm" />
     <Url
       Source="4-00 Part 4/Part_4.htm" />
+    <Url
+      Source="5-00 Part 5/Part_5.htm" />
     <Url
       Source="A-Introduction-Topics/Getting-Started.htm" />
     <Url
@@ -86,6 +90,8 @@
       Source="D-Reference/FAQs.htm" />
     <Url
       Source="D-Reference/Tips.htm" />
+    <Url
+      Source="Resources/Graphics/exida_logo.png" />
     <Url
       Source="Resources/Graphics/exsilentia 322x55.png" />
     <Url
