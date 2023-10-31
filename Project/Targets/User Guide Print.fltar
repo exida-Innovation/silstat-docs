@@ -9,7 +9,8 @@
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
-  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css">
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="footnote"
