@@ -4,12 +4,12 @@
 # files you push to your repository, the more your performance may be affected. #
 #################################################################################
 
-/Output/*
-!/Output/User*
-/Analyzer
-/FileSync
-/Project/Users
-/.svn
+Output/*
+!Output/User*
+Analyzer/
+FileSync/
+Project/Users/
+*.svn
 **/Thumbs.db
 
 #################################################################################
