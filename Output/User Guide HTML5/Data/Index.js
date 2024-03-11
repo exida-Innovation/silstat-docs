@@ -1,1 +1,1 @@
-define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Lorem',c:0,$:1},{t:'Nullam',c:0,$:1}]});
+define({numchunks:1,prefix:'Index_Chunk',terms:[{t:'Collection Events',c:0,$:1},{t:'Recording Events',c:0,$:1},{t:'TBD',c:0,$:1}]});

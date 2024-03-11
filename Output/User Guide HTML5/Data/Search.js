@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/0-00 TitlePage/Contents.htm'],s:['+1'],p:[['+1',14]]});
+define({r:0.5,st:'Stem',n:1,t:[0,78],m:[],u:['../Content/0-00 TitlePage/Contents.htm'],s:['+1','horizont','subject'],p:[['+1',71],['app',5],['can',46],['delete',35],['event',64],['higher',67],['libern',86],['number',34],['processing',66],['see',61],['that',11],['to',55]]});

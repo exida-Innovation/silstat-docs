@@ -3,7 +3,7 @@
   <Variable
     Comment=""
     Name="CompanyName"
-    EvaluatedDefinition="exida Innovation, LLC">exida Innovation, LLC</Variable>
+    EvaluatedDefinition="exida Innovation LLC">exida Innovation LLC</Variable>
   <Variable
     Comment=""
     Name="PhoneNumber"
