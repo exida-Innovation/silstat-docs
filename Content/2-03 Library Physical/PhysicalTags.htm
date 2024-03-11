@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Tags</title>
+    </head>
+    <body>
+        <h2 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1 ">Tags</h2>
+        <h2 MadCap:conditions="Default.ScreenOnly">Tags</h2>
+        <p>The Tags Library allows for creation and configuration of Tags and Subtags including Sensor Tags, Logic Solver Tags, Final Element Tags, Alarm Tags and Other Tags. These can be associated with Areas and Safeguards.</p>
+        <p>Select the <b style="font-style: italic;">Tags</b> library to view all Tags in the database. A grid shows the following properties for each.</p>
+        <p>
+            <ul>
+                <li>Type</li>
+                <li>Name</li>
+                <li>Device</li>
+                <li>Action</li>
+            </ul>
+        </p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/2-01 SILstat Settings/2-03-04 Physical Tags.png" style="max-width: 5in;" />
+        </p>
+        <p>&#160;</p>
+        <p>To create a new Tag, select the <b>New</b> button on the top right-hand corner of the library view. This will open the Tag view. To View or Edit a Tag, select the <b>Edit</b> button in the Action column. You can input the following properties for the Tag.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Tag Types</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select from drop down. Types include Other, Sensor, Logic Solver, Final Element, Alarm.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Name	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Description	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Unit of Measure</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Use field to search for available Units to choose from, or create new Unit.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Device	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Select a Device from the Device Library. These will be filtered based on the Tag Type selected.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>The Hierarchy section shows all Parents and Children associated with the Tag. These could be other Tags, Safeguards or Areas.</p>
+        <p>The Analysis Section includes additional fields based on the Tag Type, these are defined in the sections below.</p>
+        <p>The Custom Data section allows you to fill out user-defined fields. These can be configured in the SILstat Settings.</p>
+        <p>The Procedures section shows all Procedures associated with the Tag. Procedures can be created in the Procedures Library.</p>
+        <p>To create a new item, select the <b>Create</b> button in the top right-hand corner. Items that are not created will be saved as a draft.</p>
+        <p>The Insights on the Tag view shows Children/Sub Tags, Demands, Failures, and Operating Hours.</p>
+        <p>To delete the item, select the <b>Delete</b> button in the top right-hand corner. After deleting the item, it becomes a <i>soft delete</i>. A <i>soft delete</i> means the item can be recovered with the help of exida for a period of 180 days. After that period is over, the item will become permanently deleted.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.1 ">Sensor Tags</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Sensor Tags</h3>
+        <p>You can input the following properties for the Sensor Tag Configuration.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Input Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select from Process or Discreet from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Process Value</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select Analog or Digital from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range Low</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range High</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Tolerance	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Select <b>Add</b> in the Profile section to add a new profile. You can input the following properties for the Sensor Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Trip Direction</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select from High or Low from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Limit	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Basis	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.2 ">Logic  Solver Tags</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Logic  Solver Tags</h3>
+        <p>You can input the following properties for the Logic  Solver Tag Configuration.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Input Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select from Process or Discreet from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Process Value</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select Analog or Digital from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range Low</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range High</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Tolerance	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Select <b>Add</b> in the Profile section to add a new profile. You can input the following properties for the Logic Solver Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Trip Direction</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select from High or Low from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Limit	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Basis	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.3 ">Final Element Tags</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Final Element Tags</h3>
+        <p>You can input the following properties for the Final Element Tag Configuration.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Remote Actuated Valve</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Toggle On/Off based on your Final Element device.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Input Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select from Process or Discreet from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Process Value</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select Analog or Digital from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range Low</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range High</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Tolerance	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Select <b>Add</b> in the Profile section to add a new profile. You can input the following properties for the Remote Actuated Valve Final Element Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Action	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select Open or Closed from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Fail Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select Open, Closed or Stuck from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Tight Shutoff Required</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select True or False.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Feedback Tag</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>Select <b>Add</b> in the Profile section to add a new profile. You can input the following properties for the Non-Remote Actuated Valve Final Element Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Trip Action</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select On or Off from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Fail Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>	Select On or Off from drop down.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.4 ">Alarm Tags</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Alarm Tags</h3>
+        <p>You can input the following properties for the Alarm Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Input Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select from Process or Discreet from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Process Value</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select Analog or Digital from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Basis	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range Low</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Range High</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Deviation Time</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Enter time in units shown or adjust units using the drop-down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Estimated Time to Respond</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Enter time in units shown or adjust units using the drop-down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Setpoint Selected</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Setpoint Rationale</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.5 ">Other Tags</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Other Tags</h3>
+        <p>You can input the following properties for the Other Tag Profile.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Trip Direction</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Select from High or Low from drop down.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Limit	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Enter value in Units of Measure selected.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Basis	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This can be entered as text.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

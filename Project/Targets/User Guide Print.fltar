@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultTarget
   Version="2"
-  Comment="User Guide Print"
+  Comment="SILstat User Guide"
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
@@ -10,24 +10,28 @@
   InjectEmptyPages="false"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
   MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
-  OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs">
+  OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs"
+  MasterToc="/Project/TOCs/User Guide Print.fltoc"
+  OutputFile="SILstat User Guide">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="footnote"
     PopupConversion="footnote"
-    GenerateTOCProxy="true"
-    GenerateIndexProxy="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
     GenerateGlossaryProxy="false"
     OutputFormat="doc" />
   <DocumentProperties
     Title="SILstat User Guide"
     Author="exida Innovation LLC"
-    CopyrightStatus="true" />
+    CopyrightStatus="true"
+    CopyrightNotice="Copyright © 2024 exida Innovation LLC. All rights reserved." />
   <PDF
     ShowUsedBookmarks="true"
     InitialMagnification="100"
     TitleBar="FileName"
-    CollapsedBookmarks="true"
+    CollapsedBookmarks="false"
     CropAndRegistrationMarks="false"
-    ConvertToCMYK="true" />
+    ConvertToCMYK="false"
+    PageLayout="TwoPageRight" />
 </CatapultTarget>

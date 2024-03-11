@@ -32,16 +32,16 @@
                     </xhtml:head>
                     <xhtml:body>
                         <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 33%;" />
                             <xhtml:col />
-                            <xhtml:col />
-                            <xhtml:col />
+                            <xhtml:col xhtml:style="width: 34%;" />
                             <xhtml:tbody>
                                 <xhtml:tr>
                                     <xhtml:td>
                                         <xhtml:p>© exida Innovation LLC</xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td>
-                                        <xhtml:p xhtml:style="text-align: center;">exSILentia<xhtml:sup>®</xhtml:sup> 4 User Guide</xhtml:p>
+                                        <xhtml:p xhtml:style="text-align: center;">SILstat<xhtml:sup>®</xhtml:sup> User Guide</xhtml:p>
                                     </xhtml:td>
                                     <xhtml:td>
                                         <xhtml:p xhtml:style="text-align: right;">Page <MadCap:variable xhtml:name="System.PageNumber" /> of <MadCap:variable xhtml:name="System.PageCount" /></xhtml:p>
