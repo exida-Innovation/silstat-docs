@@ -131,46 +131,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Batch Process</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A process that leads to the production of finite quantities of material by subjecting quantities of input materials to an ordered set of processing activities over a finite period of time using one or more pieces of equipment.<![CDATA[						]]></p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Common Cause Failure</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Failure, which is the result of one or more events, causing failures of two or more separate channels in a multiple channel system, leading to system failure.
-						</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Common Mode Failure</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Failure of two or more channels in the same way, causing the same erroneous result.
-						</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
                                                         <p style="text-align: left;">Conditional Modifier</p>
                                                     </td>
                                                     <td>
-                                                        <p>One of several possible probabilities included in scenario risk calculations when risk criteria endpoints are expressed in impact terms (e.g., fatalities) instead of in primary loss event terms (e.g., release, vessel rupture). Conditional modifiers include, but are not necessarily limited to:</p>
-                                                        <p>
-                                                            <ul>
-                                                                <li>Probability of a hazardous atmosphere</li>
-                                                                <li>Probability of ignition or initiation</li>
-                                                                <li>Probability of explosion</li>
-                                                                <li>Probability of personnel presence</li>
-                                                                <li>Probability of injury or fatality</li>
-                                                                <li>Probability of equipment damage or other financial impact</li>
-                                                            </ul>
-                                                        </p>
+                                                        <p>One of several possible probabilities included in scenario risk calculations when risk criteria endpoints are expressed in impact terms (e.g., fatalities) instead of in primary loss event terms (e.g., release, vessel rupture).</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -186,7 +150,7 @@
                                                         <p style="text-align: left;">Enabling Condition</p>
                                                     </td>
                                                     <td>
-                                                        <p>A condition that makes possible the initiating event or initiating cause of a scenario. An enabling condition is neither a failure nor a protection layer. It consists of an operation or condition that does not directly cause the scenario, but that must be present or active in order for the scenario to proceed to a loss event. Note that mitigating factors, such as the probability of personnel presence or of emergency evacuation, are conditional modifiers  and not enabling conditions. The term enabling event is sometimes used for enabling condition. The term enabling condition is preferred, since enabling conditions are not generally events but rather conditional states.</p>
+                                                        <p>A condition that makes possible the initiating event or initiating cause of a scenario. An enabling condition is neither a failure nor a protection layer. It consists of an operation or condition that does not directly cause the scenario, but that must be present or active in order for the scenario to proceed to a loss event.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -199,10 +163,90 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Failure Modes Effects and Diagnostic Analysis</p>
+                                                        <p style="text-align: left;">Failure Modes</p>
                                                     </td>
                                                     <td>
-                                                        <p>A systematic procedure during which each failure mode of each component is examined to determine the effect of that failure on the system and whether that failure is detected by any automatic diagnostic function.                        </p>
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Low</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that will result in an output current that is lower than 4mA or under range per NAMUR recommendation 43.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail High</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that will result in an output current that is higher than 20mA or over range per NAMUR recommendation 43.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Detected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that is detected by internal diagnostics whose external effect depends on equipment item settings. In a transmitter, for example, a detected failure could result in over range or under range output depending on a jumper setting.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Dangerous Detected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that is dangerous and that is detected by internal diagnostics or by a connected safety logic solver. A dangerous failure is defined as a failure that does not respond to a demand from the process (i.e. being unable to go to the defined fail-safe state).</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Dangerous Undetected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that is dangerous and that is not diagnosed by internal diagnostics or by a connected safety logic solver. A dangerous failure is defined as a failure that does not respond to a demand from the process (i.e. being unable to go to the defined fail-safe state).</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Safe Detected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that leads to a safe state and that is detected by internal diagnostics or by a connected safety logic solver. A safe failure is defined as a failure that results in the presentation of the selected fail-safe input or output condition without a demand from the process.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Safe Undetected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that leads to a safe state and that is not detected by internal diagnostics or by a connected safety logic solver. A safe failure is defined as a failure that results in the presentation of the selected fail-safe input or output condition without a demand from the process.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Annunciation Detected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that leads to a false diagnostic alarm annunciation. An annunciation failure is defined as a failure that has no effect on the safety function but does affect the ability to detect future faults, for example, a failure of an internal diagnostic function of an equipment item.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail Annunciation Undetected</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure that leads to the inability to annunciate future failures. An annunciation failure is defined as a failure that has no effect on the safety function but does affect the ability to detect future faults, for example, a failure of an internal diagnostic function of an equipment item.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Fail No Effect</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>Failure of a component that is part of the safety critical circuit that has no impact on the successful execution of the safety function.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -219,22 +263,6 @@
                                                     </td>
                                                     <td>
                                                         <p>Scenario that consists of one or more sequence of events that results in a final consequence of concern. Each Hazard Scenario consists of at least one cause - consequence pair. </p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Impact</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A measure of the ultimate loss and harm of a loss event. Impact may be expressed in terms of numbers of injuries and/or fatalities, extent of environmental damage and/or magnitude of losses such as property damage, material loss, loss of intellectual property, lost production, market share loss, and recovery costs.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Incident</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>An event or sequence of events that either resulted in or had the potential to result in adverse impacts.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -259,14 +287,6 @@
                                                     </td>
                                                     <td>
                                                         <p>An approach that analyzes incident scenario(s) (cause-consequence pair(s)) using values for the initiating event frequencies, enabling conditions, independent protection layer failure probabilities, and conditional modifiers as applicable in order to compare a Hazard Scenario risk estimate to risk criteria to determine if additional risk reduction or more detailed analysis is needed. Scenarios are identified elsewhere, typically using a scenario based hazard evaluation procedure such as a HAZOP Study.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Likelihood</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A measure of the expected frequency with which an event occurs. This may be expressed as a frequency (e.g. events per year), a probability of occurrence during a time interval (e.g. annual probability), or a conditional probability (e.g. probability of occurrence, given that a precursor event has occurred).</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -319,77 +339,10 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Quantitative Risk Assessment</p>
+                                                        <p style="text-align: left;">Risk Reduction Factor (RRF)</p>
                                                     </td>
                                                     <td>
-                                                        <p>The systematic development of numerical estimates of the expected frequency and consequence of potential incidents associated with a facility or operation based on engineering evaluation and mathematical techniques.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A measure of human injury, environmental damage, economic loss, loss of intellectual property or loss of privacy in terms of both the incident likelihood and the magnitude of the loss or injury. A simplified version of this relationship expresses risk as the product of the likelihood and the consequences (i.e. Risk = Consequence x Likelihood) of an incident.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Assessment</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>The process by which the results of a risk analysis (i.e. risk estimates) are used to make decisions, either through relative risk ranking of risk reduction strategies or through comparison with tolerable risk levels.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr style="height: 16px;">
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Mitigation</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A reduction of risk due to a reduction of the likelihood or impact associated with a loss event.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Receptor</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Something which could come to harm, including human health, environment, or financial well-being.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Reduction Factor (RRF) - Achieved</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>The measure of the degree of risk reduction achieved by a safeguard, countermeasure, or protection strategy. Achieved RRF can be expressed as the ratio of unmitigated risk divided by mitigated risk resulting from that safeguard, countermeasure, or protection strategy.  For an independent low demand safety function, this can be expressed as the reciprocal of the average probability of failure on demand.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Reduction Factor (RRF) - Target/Required</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>The measure of the degree of risk reduction needed to achieve tolerable risk. RRF can be expressed as the ratio of unmitigated risk divided by tolerable risk. Within exSILentia® a distinction is made between <i>Target</i> and <i>Required</i> RRF.</p>
-                                                        <p><i>Target RRF</i>&#160;is used to identify the risk reduction needed to achieve tolerable risk resulting from the LOPA/SIL&#160;selection.</p>
-                                                        <p><i>Required RRF</i> is used to identify the risk reduction specified in the SRS which the SIF&#160;as designed should meet. The required RRF&#160;is typically equal to or greater than the target RRF (if the user decides to round the target RRF).</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Tolerance</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>1. Willingness by authority having jurisdiction to live with a risk so as to secure certain benefits in the confidence that the risk is one that is worth taking and that it is being properly controlled. However, it does not imply that everyone would agree without reservation to take that risk or have it imposed on them.</p>
-                                                        <p>2. Risk the organization is willing to accept.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Risk Tolerance Criteria</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A predetermined measure of risk used to aid decisions about whether further efforts to reduce risk are warranted.</p>
+                                                        <p>The ratio of unmitigated risk divided by mitigated risk. It is used to express the required risk reduction to achieve tolerable risk as well as to express the achieved risk reduction by an implemented safeguard or protection strategy.</p>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -410,42 +363,6 @@
                                                 </tr>
                                                 <tr>
                                                     <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Safety Integrity Level  - Target/Required</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Within exSILentia® a distinction is made between <i>Target</i> and <i>Required</i> SIL.</p>
-                                                        <p><i>Target SIL</i>&#160;is used to identify the SIL needed to achieve tolerable risk resulting from the LOPA/SIL&#160;selection.</p>
-                                                        <p><i>Required SIL</i> is used to identify the SIL specified in the SRS which the SIF&#160;as designed should meet. The required SIL is typically equal to the target SIL but would allow different target SILs to result from the different SIL selection methods.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Severity</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>A measure of the degree of impact of a particular consequence.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">SIL Threshold</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>Parameter to specify the boundary between target Safety Integrity Levels 
-
-Assume a calculated Required Risk Reduction Factor of 29, which would fall in the 10 - 100 Risk Reduction range. With a SIL Threshold Ratio of 1, a calculated Risk Reduction Factor of 29 would result in a Target SIL of SIL 2. The calculated Risk Reduction Factor is in this case greater than the SIL determination threshold which lies at 10 (10 * 1). With a SIL Threshold Ratio of 3, a calculated Risk Reduction Factor of 29 would result in a Target SIL of SIL 1. The calculated Risk Reduction Factor is in this case less than the SIL determination threshold which lies at 30 (10 * 3).</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
-                                                        <p style="text-align: left;">Startup Time</p>
-                                                    </td>
-                                                    <td>
-                                                        <p>The time it takes to re-start the process after a shutdown.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="vertical-align: top;text-align: left;">
                                                         <p style="text-align: left;">Systematic Capability</p>
                                                     </td>
                                                     <td>
@@ -458,6 +375,62 @@ Assume a calculated Required Risk Reduction Factor of 29, which would fall in th
                                                     </td>
                                                     <td>
                                                         <p>That portion of life when the failure rate can be described by the exponential distribution, i.e. constant failure rate. The useful life follows infant mortality or burn-in and precedes the wear-out portions of the overall life. For functional safety applications, devices are expected to be replaced at the end of their useful life.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;">
+                                                        <p style="text-align: left;">&#160;</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;">
+                                                        <p style="text-align: left;">SILstat Specific</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>&#160;</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Area</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>TBD</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Hierarchy - Logical</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>TBD</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Hierarchy - Physical</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>TBD</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">Tag</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>TBD</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="vertical-align: top;text-align: left;padding-left: 20px;">
+                                                        <p style="text-align: left;">TBD</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>TBD</p>
                                                     </td>
                                                 </tr>
                                             </tbody>

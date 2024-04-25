@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Failures Dashboard</title>
+    </head>
+    <body>
+        <h2 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1 ">Failures Dashboard</h2>
+        <h2 MadCap:conditions="Default.ScreenOnly">Failures Dashboard</h2>
+        <p>The SILstat Failures Dashboard includes the following widgets:</p>
+        <p>
+            <ul>
+                <li>Device Model Overview Grid</li>
+                <li>Device Type Overview Grid</li>
+                <li>Failure History Grid</li>
+                <li>Failure Modes by Device Model Pie Chart</li>
+                <li>Failure Modes by Device Type Pie Chart</li>
+                <li>Resolution  by Device Model Pie Chart</li>
+                <li>Resolution by Device Type Pie Chart</li>
+            </ul>
+        </p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01 Failures Dashboard.png" style="max-width: 5in;" />
+        </p>
+        <p>&#160;</p>
+        <h3 MadCap:conditions="Default.PrintOnly" class="Section" MadCap:autonum="1.1.1 ">Device Model &amp; Device Type Overview Grid</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Device Model &amp; Device Type Overview Grid</h3>
+        <p>In the Failures Dashboard, the Device Model Overview and Device Type Overview are combined into a single widget. These display high-level failure data based on events collected in your SILstat database and compare Actual Failure Rates calculated by SILstat to Assumed Failure Rates used in SIL Verification.</p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-01 Failures Widget Device Model-Type Overview Grid.png" style="max-width: 5in;" />
+        </p>
+        <p>&#160;</p>
+        <p>On the left-side panel of the widget, you can choose to view per Device Model or Device Type. To change the order in which they are listed, select the <b>Setup</b> button at the bottom of the left-side panel. This will allow you to change the order under <b>Edit List</b>.</p>
+        <p>To view data in the widget, a Device Model or Device Type must be selected. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Filters</b> section, select the <b>Device Model</b> or <b>Device Type</b> from the drop down.</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device Model/Device Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This will list all available Device Models or Types in your SILstat database. A selection must be made to view data in this widget.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Threshold  for Problematic Device</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>??<MadCap:keyword term="TBD" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Failure Rate Unit</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose how failure rates are displayed from the drop-down. Options include Failures per Hour, Failures per Year, and FITs (Failure in Billion Hours)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Bucket  Size: Number of Intervals</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>??<MadCap:keyword term="TBD" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Page Size</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose the number of rows showing in the grid in a single page.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select  the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose  the Chart Title location. Options include Bottom, Top, Right, and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart  Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>The Device Model Overview provides the following data.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" />
+            <col class="TableStyle-Basic-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>SSI</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This displays the Device Model’s Assumed SSI used in SIL Verification. This is imported into the database or entered directly by the user.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Failure   Rates</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This displays the Device Model’s Assumed Failure Rates used in SIL Verification. This is imported into the database or entered directly by the user.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Devices	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Devices associated with the Device Model in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Operating Hours</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Operating hours associated with the Device Model in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Total Failures</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Failures for Devices associated with the Device Model in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Assumed Failure Rate</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This displays the Device Model’s Assumed Failure Rate used in SIL Verification. This is imported into the database or entered directly by the user.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Actual Failure Rate</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Device Model’s Actual Failure Rate calculated by SILstat based on the Failure Events collected in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Actual vs. Assumed Failure Rate</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the difference between the Actual and Assumed Failure Rates.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Problematic</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This provides an indication that the difference between the Actual vs. Assumed Failure rate is too great. The criteria for this indication can be set by the user in the widget settings.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>The bottom of the grid shows the number of items displayed in the widget, based on the Filters set in the widget settings. It also shows the page you are viewing out of the total number of pages. Arrow icons allow you to proceed to the next page of the grid or return to a previous page.</p>
+        <p>The Device Types Overview provides the following data.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device  Name</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>??<MadCap:keyword term="TBD" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device  Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>??<MadCap:keyword term="TBD" /></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Devices	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Devices associated with the Device Type in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Operating Hours</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Operating hours associated with the Device Type in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Total Failures</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the total number of Failures for Devices associated with the Device Type in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Actual Failure Rate</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Device Type’s Actual Failure Rate calculated by SILstat based on the Failure Events collected in the database.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Problematic</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This provides an indication that the Actual Failure rate is too high. The criteria for this indication can be set by the user in the widget settings.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>The bottom of the grid shows the number of items displayed in the widget, based on the Filters set in the widget settings. It also shows the page you are viewing out of the total number of pages. Arrow icons allow you to proceed to the next page of the grid or return to a previous page.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.2 ">Failure History Grid</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Failure History Grid</h3>
+        <p>The Failure History widget provides a grid showing details for failure events collected in the database. This can be filtered by Area to show a specific part of the hierarchy. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view.</p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-02 Failures Widget Failure History Grid.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Area Filters</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Navigate through the hierarchy and select the Areas you wish view.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Page Size</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Choose the number of rows showing in the grid in a single page.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Column Visibility</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Use the toggle button next to each column header to choose which columns are shown in the grid.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>	The Failure History widget provides the following data.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Date Occurred</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the date of the Failure Event.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Hierarchy	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This lists all parents of the Device the Failure Event was recorded for.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Tag	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Tag associated with the failed Device.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Model	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Device Model associated with the failed Device.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Device Name.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Serial Number	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Serial Number associated with the failed Device.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Failure Mode</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows the Failure Mode associated with this Failure Event.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Corrected	</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>This shows any associated event recorded as a resolution to the Failure. This could include a Repair, Replace or Remove Event.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Date Corrected</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>This shows the date of the associated event.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <p>	The bottom of the grid shows the number of items displayed in the widget, based on the Filters set in the widget settings. It also shows the page you are viewing out of the total number of pages. Arrow icons allow you to proceed to the next page of the grid or return to a previous page.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.3 ">Failure Modes by Device Model Pie Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Failure Modes by Device Model Pie Chart</h3>
+        <p>The Failure Modes by Device Model widget provides a pie chart showing the number of Failure Events recorded per Failure Mode for the selected Device Model.</p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-03 Failures Widget Failure Modes by Device Model Pie Chart.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <p>To view data in the widget, a Device Model must be selected. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Filters</b> section, select the <b>Device Model</b> from the drop down.</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device Model</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	This will list all available Device Models in your SILstat database. A selection must be made to view data in this widget.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.4 ">Failure Modes by Device Type Pie Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Failure Modes by Device Type Pie Chart</h3>
+        <p>The Failure Modes by Device Type widget provides a pie chart showing the number of Failure Events recorded per Failure Mode for the selected Device Type.</p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-04 Failures Widget Failure Modes by Device Type Pie Chart.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <p>To view data in the widget, a Device Type must be selected. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Filters</b> section, select the <b>Device Type</b> from the drop down.</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	This will list all available Device Types in your SILstat database. A selection must be made to view data in this widget.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.5 ">Resolution  by Device Model Pie Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly" style="font-weight: normal;">Resolution  by Device Model Pie Chart</h3>
+        <p>The Resolution by Device Model widget provides a pie chart showing the number of each type of Corrective Action events recorded in response to Failure Events associated with the selected Device Model. These include:</p>
+        <p>
+            <ul>
+                <li>Repaired: if a Repair Event was created and completed in response to a Failure Event.</li>
+                <li>Replaced: if Replace Event was created and completed in response to a Failure Event.</li>
+                <li>Pending: started Repair/Replace Event, but not yet completed (pending corrective action on this device model).</li>
+            </ul>
+        </p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-05 Failures Widget Resolution  by Device Model Pie Chart.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <p>To view data in the widget, a Device Model must be selected. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Filters</b> section, select the <b>Device Model</b> from the drop down.</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device Model</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	This will list all available Device Models in your SILstat database. A selection must be made to view data in this widget.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+        <h3 MadCap:conditions="Default.PrintOnly" class="Section" MadCap:autonum="1.1.6 ">Resolution by Device Type Pie Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Resolution by Device Type Pie Chart</h3>
+        <p>The Resolution by Device Type widget provides a pie chart showing the number of each type of Corrective Action events recorded in response to Failure Events associated with the selected Device Type. These include:</p>
+        <p>
+            <ul>
+                <li>Repaired: if a Repair Event was created and completed in response to a Failure Event.</li>
+                <li>Replaced: if Replace Event was created and completed in response to a Failure Event.</li>
+                <li>Pending: started Repair/Replace Event, but not yet completed (pending corrective action on this device model).</li>
+            </ul>
+        </p>
+        <p>&#160;</p>
+        <p style="text-align: center;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-01-05 Failures Widget Resolution  by Device Model Pie Chart.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p>&#160;</p>
+        <p>To view data in the widget, a Device Type must be selected. To do this, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Filters</b> section, select the <b>Device Type</b> from the drop down.</p>
+        <p>The widget settings include the following items.</p>
+        <p>&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p>Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Device Type</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	This will list all available Device Types in your SILstat database. A selection must be made to view data in this widget.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p>Chart Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p>Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>
