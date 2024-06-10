@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
+        <link href="../../../../../../../SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../../../../../SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../../../../../SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../../../../../SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
         <link href="../Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Procedures Dashboard</title>
     </head>
     <body>
@@ -15,10 +19,11 @@
                 <li>Procedures Completed Grid</li>
                 <li>Procedures Overdue Grid</li>
                 <li>Procedures Summary Grid</li>
-                <li>Procedures Overdue Pie Chart</li>
-                <li>Procedures Completed on Time Pie Chart</li>
-                <li>Procedures Passed Pie Chart</li>
-                <li>Tags with Procedures Assigned Pie Chart</li>
+                <li><span style="background-color: #ffff00;">Procedures Overdue Donut Chart</span>
+                </li>
+                <li>Procedures Completed on Time Donut Chart</li>
+                <li>Procedures Completed Donut Chart</li>
+                <li>Proof Tests Passed Donut Chart</li>
             </ul>
         </p>
         <p>&#160;</p>
@@ -91,7 +96,7 @@
                         <p>Procedures Type Filter</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                        <p>	Choose between All, Proof Test, or Procedure.</p>
+                        <p>	Choose between All, Procedure, or Proof Test. </p>
                     </td>
                 </tr>
             </tbody>
@@ -134,19 +139,11 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Bucket Size: Number of Intervals</p>
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1" style="background-color: #ffff00;">
+                        <p>Bucket Size: Upper Bound, Number of Intervals</p>
                     </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1" style="background-color: #ffff00;">
                         <p>This allows you to choose the time interval dates shown on the X-axis of the chart.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Maximum Months</p>
-                    </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>This provides the maximum months overdue on the X-axis.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
@@ -166,12 +163,20 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
                         <p>Procedures Type Filter</p>
                     </td>
-                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                        <p>	Choose between All, Proof Test, or Procedure.</p>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p>	Choose between All, Procedure, or Proof Test.</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1" style="background-color: #7fffd4;">Chart Title:&#160;Show Title</td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1" style="background-color: #7fffd4;">Select the toggle button to choose to show the chart title or not.</td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1" style="background-color: #7fffd4;">Chart Title:&#160;Title Position </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1" style="background-color: #7fffd4;">Choose the Chart Title location. Options include Bottom, Top, Right and Left.</td>
                 </tr>
             </tbody>
         </table>
@@ -205,19 +210,11 @@
             </thead>
             <tbody>
                 <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1" style="background-color: #ffff00;">
                         <p>Area Filters</p>
                     </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1" style="background-color: #ffff00;">
                         <p>	Navigate through the hierarchy and select the Areas you wish view.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Duration Format: Time Unit</p>
-                    </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>		Choose to display Duration in seconds, days, weeks, months, or years.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
@@ -227,6 +224,10 @@
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                         <p>		Choose between All, Proof Test, or Procedure.</p>
                     </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">Procedure&#160;Type Filter</td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">Choose between All, Procedure, or Proof Test.</td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
@@ -289,7 +290,7 @@
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                        <p>Names</p>
+                        <p>Name</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
                         <p>	This shows the Procedure Name.</p>
@@ -351,7 +352,7 @@
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Names</p>
+                        <p>Name</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                         <p>	This shows the Procedure Name.</p>
@@ -375,7 +376,7 @@
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Passed</p>
+                        <p>Status</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                         <p>	This gives an indication if the Procedure passed or failed.</p>
@@ -442,19 +443,11 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Names</p>
-                    </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>	This shows the Procedure Name.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                        <p>Action</p>
+                        <p>Name</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                        <p>	??<MadCap:keyword term="TBD" /></p>
+                        <p>	This shows the Procedure Name.</p>
                     </td>
                 </tr>
             </tbody>
@@ -521,7 +514,7 @@
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Pass Rate</p>
+                        <p>Rate</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                         <p>	This provides an indication of how often this Procedure passes or results in a failure.</p>
@@ -538,9 +531,11 @@
             </tbody>
         </table>
         <p>&#160;</p>
+        <p><span style="background-color: #ffff00;">After clicking on the Action button, you can add a Table. </span>
+        </p>
         <p>The bottom of the grid shows the number of items displayed in the widget, based on the Filters set in the widget settings. It also shows the page you are viewing out of the total number of pages. Arrow icons allow you to proceed to the next page of the grid or return to a previous page.</p>
-        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.4 ">Procedures Overdue Pie Chart</h3>
-        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Overdue Pie Chart</h3>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.4 ">Procedures Overdue Bar Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Overdue Bar Chart</h3>
         <p>The Procedures Overdue widget provides a pie chart showing the number of Overdue Procedures that are Completed vs. Pending. The Assumed Procedure Interval (or Proof Test Interval) is imported from the SIL Verification or entered by the user into the SILstat application.</p>
         <p>&#160;</p>
         <p style="text-align: center;">
@@ -584,6 +579,10 @@
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1" style="background-color: #ffff00;">Bucket Intervals</td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1" style="background-color: #ffff00;">&#160;</td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
                         <p>Chart Title: Show Title</p>
                     </td>
@@ -619,9 +618,9 @@
         </table>
         <p>&#160;</p>
         <p>In the widget, you can hover over sections of the pie chart to see the number of Procedures per category.</p>
-        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.5 ">Procedures Completed on Time Pie Chart</h3>
-        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Completed on Time Pie Chart</h3>
-        <p>The Procedures  Completed on Time widget provides a pie chart showing the number of Procedures Meeting  their Assumed Interval vs. Exceeding their Assumed Interval. The Assumed Procedure Interval (or Proof Test Interval) is imported from the SIL Verification or entered by the user into the SILstat application.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.5 ">Procedures Completed on Time Donut Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Completed on Time Donut Chart</h3>
+        <p>The Procedures  Completed on Time widget provides a donut chart showing the number of Procedures Meeting  their Assumed Interval vs. Exceeding their Assumed Interval. The Assumed Procedure Interval (or Proof Test Interval) is imported from the SIL Verification or entered by the user into the SILstat application.</p>
         <p>&#160;</p>
         <p style="text-align: center;">
             <img src="../Resources/Graphics/5-01 Analysis/5-05-03-05 Procedures Widget Procedures Completed on Time Pie Chart.png" style="max-width: 5in;">
@@ -660,7 +659,7 @@
                         <p>Procedures Type Filter</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Choose between All, Proof Test, or Procedure.</p>
+                        <p>Choose between All, Procedure, or Proof Test. </p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
@@ -699,9 +698,9 @@
         </table>
         <p>&#160;</p>
         <p>In the widget, you can hover over sections of the pie chart to see the number of Procedures per category.</p>
-        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.6 ">Procedures Passed Pie Chart</h3>
-        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Passed Pie Chart</h3>
-        <p>The Procedures Passed widget provides a pie chart showing the number of Procedures that passed vs. those that failed. The pass/fail criteria for Proof Tests are imported from the Proof Test Generation or entered by the user into the SILstat application.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.6 ">Procedures Passed Donut Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Procedures Passed Donut Chart</h3>
+        <p>The Procedures Passed widget provides a donut chart showing the number of Procedures that passed vs. those that failed. The pass/fail criteria for Procedures are imported from the Proof Test Generation or entered by the user into the SILstat application.</p>
         <p>&#160;</p>
         <p style="text-align: center;">
             <img src="../Resources/Graphics/5-01 Analysis/5-05-03-06 Procedures Widget Procedures Passed Pie Chart.png" style="max-width: 5in;">
@@ -779,19 +778,19 @@
         </table>
         <p>&#160;</p>
         <p>In the widget, you can hover over sections of the pie chart to see the number of Procedures per category.</p>
-        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.7 ">Tags with Procedures Assigned Pie Chart</h3>
-        <h3 MadCap:conditions="Default.ScreenOnly">Tags with Procedures Assigned Pie Chart</h3>
-        <p>The Tags with Procedures Assigned widget provides a pie chart showing the number of Tags that have Procedures assigned vs. those with no Procedures assigned. Procedures are assigned to tags in the configuration section of the SILstat application.</p>
+        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.7 ">Proof Tests Passed Donut Chart</h3>
+        <h3 MadCap:conditions="Default.ScreenOnly">Proof Tests Passed Donut Chart</h3>
+        <p>The Proof Tests Passed widget provides a donut chart showing the number of Proof Tests that passed vs. those that failed. The pass/fail criteria for Proof Tests are imported from the Proof Test Generation or entered by the user into the SILstat application.</p>
         <p>&#160;</p>
         <p style="text-align: center;">
-            <img src="../Resources/Graphics/5-01 Analysis/5-05-03-07 Procedures Widget Tags with Procedures Assigned Pie Chart.png" style="max-width: 5in;">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-03-06 Procedures Widget Procedures Passed Pie Chart.png" style="max-width: 5in;">
             </img>
         </p>
         <p>&#160;</p>
-        <p>The widget  shows Tags with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
+        <p>The widget  shows Proof Tests with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
         <p>The widget settings include the following items.</p>
         <p>&#160;</p>
-        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../../../../../../../SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css');width: 100%;">
             <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
             </col>
             <col class="TableStyle-Basic-Column-Column1">
@@ -813,14 +812,6 @@
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                         <p>	Navigate through the hierarchy and select the Areas you wish view.</p>
-                    </td>
-                </tr>
-                <tr class="TableStyle-Basic-Body-Body1">
-                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Procedures Type Filter</p>
-                    </td>
-                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Choose between All, Proof Test, or Procedure.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
@@ -859,5 +850,85 @@
         </table>
         <p>&#160;</p>
         <p>In the widget, you can hover over sections of the pie chart to see the number of Procedures per category.</p>
+        <h3 class="Section" MadCap:conditions="Default.HideFunctionality" MadCap:autonum="1.1.8 ">Tags with Procedures Assigned Pie Chart</h3>
+        <h3 MadCap:conditions="Default.HideFunctionality">Tags with Procedures Assigned Pie Chart</h3>
+        <p MadCap:conditions="Default.HideFunctionality">The Tags with Procedures Assigned widget provides a pie chart showing the number of Tags that have Procedures assigned vs. those with no Procedures assigned. Procedures are assigned to tags in the configuration section of the SILstat application.</p>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
+        <p style="text-align: center;" MadCap:conditions="Default.HideFunctionality">
+            <img src="../Resources/Graphics/5-01 Analysis/5-05-03-07 Procedures Widget Tags with Procedures Assigned Pie Chart.png" style="max-width: 5in;">
+            </img>
+        </p>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
+        <p MadCap:conditions="Default.HideFunctionality">The widget  shows Tags with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
+        <p MadCap:conditions="Default.HideFunctionality">The widget settings include the following items.</p>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
+        <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
+            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+            </col>
+            <col class="TableStyle-Basic-Column-Column1">
+            </col>
+            <thead>
+                <tr class="TableStyle-Basic-Head-Header1">
+                    <th class="TableStyle-Basic-HeadE-Column1-Header1">
+                        <p MadCap:conditions="Default.HideFunctionality">Property	</p>
+                    </th>
+                    <th class="TableStyle-Basic-HeadD-Column1-Header1">
+                        <p MadCap:conditions="Default.HideFunctionality">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Area Filters</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">	Navigate through the hierarchy and select the Areas you wish view.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Procedures Type Filter</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Choose between All, Proof Test, or Procedure.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Chart Title: Show Title</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart title or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Chart Title: Title Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Chart Legend: Show Legend</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart legend or not.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Basic-Body-Body1">
+                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Chart Legend: Legend Position</p>
+                    </td>
+                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                        <p MadCap:conditions="Default.HideFunctionality">Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
+        <p MadCap:conditions="Default.HideFunctionality">In the widget, you can hover over sections of the pie chart to see the number of Procedures per category.</p>
     </body>
 </html>
