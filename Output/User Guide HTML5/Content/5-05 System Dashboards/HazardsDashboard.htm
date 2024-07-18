@@ -3,7 +3,6 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Hazards Dashboard</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -169,10 +168,10 @@
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                                                        <p>Hazard Overview Settings: Failure Rate Frequency Unit</p>
+                                                        <p>Page Size</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                                                        <p>??<a name="kanchor7"></a></p>
+                                                        <p>Choose the number of rows showing in the grid in a single page.</p>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -206,30 +205,6 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Tolerable Frequency</p>
-                                                    </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>	This shows Tolerable Frequency of the Hazard Scenario as defined in the LOPA. This data is imported from the LOPA or entered by the user into the SILstat application.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Actual Frequency</p>
-                                                    </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>This shows Actual Frequency of the Hazard Scenario calculated by SILstat based on the Hazard Events recorded in the database.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Measure of Confidence</p>
-                                                    </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>??<a name="kanchor8"></a></p>
-                                                    </td>
-                                                </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
                                                         <p>Hierarchy</p>
@@ -280,7 +255,7 @@
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Succeeded</p>
+                                                        <p>Mitigated</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                                                         <p>This indicates if the Hazard was successfully mitigated or not.</p>
@@ -403,18 +378,18 @@
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Failed Safeguards</p>
-                                                    </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>This shows the number of failed Safeguards.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
                                                         <p>Initiating Events</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
                                                         <p>This shows the number of Initiating Events.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr class="TableStyle-Basic-Body-Body1">
+                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                                                        <p>Failed Safeguards</p>
+                                                    </td>
+                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                                                        <p>This shows the number of failed Safeguards.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
@@ -427,7 +402,7 @@
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                                                        <p>Succeeded</p>
+                                                        <p>Mitigated</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
                                                         <p>This indicates if the Hazard was successfully mitigated or not.</p>
@@ -437,17 +412,18 @@
                                         </table>
                                         <p>&#160;</p>
                                         <p>	The bottom of the grid shows the number of items displayed in the widget, based on the Filters set in the widget settings. It also shows the page you are viewing out of the total number of pages. Arrow icons allow you to proceed to the next page of the grid or return to a previous page.</p>
-                                        <h3 data-mc-conditions="Default.ScreenOnly">Initiating Event Frequency Pie Chart</h3>
-                                        <p>The Initiating Event Frequency widget provides a pie chart showing the number of Initiating Events Meeting  the Assumed Initiating Event Frequency vs. Exceeding the Assumed Initiating Event Frequency. The Assumed Initiating Event Frequency is imported from the LOPA or entered by the user into the SILstat application.</p>
-                                        <p>&#160;</p>
-                                        <p style="text-align: center;">
+                                        <h3 class="Section" data-mc-autonum="1.1.1 " data-mc-conditions="Default.HideFunctionality"><span class="autonumber"><span>1.1.1 </span></span>Initiating Event Frequency Pie Chart</h3>
+                                        <h3 data-mc-conditions="Default.HideFunctionality">Initiating Event Frequency Pie Chart</h3>
+                                        <p data-mc-conditions="Default.HideFunctionality">The Initiating Event Frequency widget provides a pie chart showing the number of Initiating Events Meeting  the Assumed Initiating Event Frequency vs. Exceeding the Assumed Initiating Event Frequency. The Assumed Initiating Event Frequency is imported from the LOPA or entered by the user into the SILstat application.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p style="text-align: center;" data-mc-conditions="Default.HideFunctionality">
                                             <img src="../Resources/Graphics/5-01 Analysis/5-05-02-03 Hazards Widget Initiating Event Frequency Pie Chart_480x320.png" style="width: 480;height: 320;">
                                             </img>
                                         </p>
-                                        <p>&#160;</p>
-                                        <p>The widget  shows all Initiating Events with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
-                                        <p>The widget settings include the following items.</p>
-                                        <p>&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">The widget  shows all Initiating Events with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">The widget settings include the following items.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
                                         <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
                                             <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
                                             </col>
@@ -456,60 +432,60 @@
                                             <thead>
                                                 <tr class="TableStyle-Basic-Head-Header1">
                                                     <th class="TableStyle-Basic-HeadE-Column1-Header1">
-                                                        <p>Property	</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Property	</p>
                                                     </th>
                                                     <th class="TableStyle-Basic-HeadD-Column1-Header1">
-                                                        <p>Description</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Description</p>
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Area Filters</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Area Filters</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>	Navigate through the hierarchy and select the Areas you wish view.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">	Navigate through the hierarchy and select the Areas you wish view.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Title: Show Title</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Title: Show Title</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart title or not.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Title: Title Position</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Title: Title Position</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Legend: Show Legend</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Legend: Show Legend</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart legend or not.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                                                        <p>Chart Legend: Legend Position</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Legend: Legend Position</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                                                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p>&#160;</p>
-                                        <p>In the widget, you can hover over sections of the pie chart to see the number of Initiating Events per category.</p>
-                                        <h3 data-mc-conditions="Default.ScreenOnly">Safeguard Probability of Failure Pie Chart</h3>
-                                        <p>The Safeguard Probability of Failure widget provides a pie chart showing the number of Safeguards Meeting  the Assumed Probability of Failure vs. Exceeding the Assumed Probability of Failure. The Assumed Probability of Failure  is imported from the LOPA or entered by the user into the SILstat application.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">In the widget, you can hover over sections of the pie chart to see the number of Initiating Events per category.</p>
+                                        <h3 data-mc-conditions="Default.ScreenOnly">Safeguard Probability of Failure Donut Chart</h3>
+                                        <p>The Safeguard Probability of Failure widget provides a donut chart showing the number of Safeguards Meeting  the Assumed Probability of Failure vs. Exceeding the Assumed Probability of Failure. The Assumed Probability of Failure  is imported from the LOPA or entered by the user into the SILstat application.</p>
                                         <p>&#160;</p>
                                         <p style="text-align: center;">
                                             <img src="../Resources/Graphics/5-01 Analysis/5-05-02-04 Hazards Widget Safeguard Probability of Failure Pie Chart_480x320.png" style="width: 480;height: 320;">
@@ -579,79 +555,80 @@
                                         </table>
                                         <p>&#160;</p>
                                         <p>In the widget, you can hover over sections of the pie chart to see the number of Safeguards per category.</p>
-                                        <h3 data-mc-conditions="Default.ScreenOnly">Hazard Scenario Frequency Pie Chart</h3>
-                                        <p>The Hazard Scenario Frequency of Failure widget provides a pie chart showing the number of Hazard Scenarios Meeting  the Assumed Hazard Scenario Frequency vs. Exceeding the Assumed Hazard Scenario Frequency. The Assumed Hazard Scenario Frequency  is imported from the LOPA or entered by the user into the SILstat application.</p>
-                                        <p>&#160;</p>
-                                        <p style="text-align: center;">
+                                        <h3 class="Section" data-mc-autonum="1.1.2 " data-mc-conditions="Default.HideFunctionality"><span class="autonumber"><span>1.1.2 </span></span>Hazard Scenario Frequency Pie Chart</h3>
+                                        <h3 data-mc-conditions="Default.HideFunctionality">Hazard Scenario Frequency Pie Chart</h3>
+                                        <p data-mc-conditions="Default.HideFunctionality">The Hazard Scenario Frequency of Failure widget provides a pie chart showing the number of Hazard Scenarios Meeting  the Assumed Hazard Scenario Frequency vs. Exceeding the Assumed Hazard Scenario Frequency. The Assumed Hazard Scenario Frequency  is imported from the LOPA or entered by the user into the SILstat application.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p style="text-align: center;" data-mc-conditions="Default.HideFunctionality">
                                             <img src="../Resources/Graphics/5-01 Analysis/5-05-02-05 Hazards Widget Hazard Scenario Frequency Pie Chart_480x320.png" style="width: 480;height: 320;">
                                             </img>
                                         </p>
-                                        <p>&#160;</p>
-                                        <p>The widget  shows all Hazard Scenarios with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
-                                        <p>The widget settings include the following items.</p>
-                                        <p>&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">The widget  shows all Hazard Scenarios with data collected in your database for the Areas selected in the Area Filter. To adjust the Area Filter, select the gear icon on the top right-hand corner to open the widget settings. In the <b>Area Filters</b> section, navigate through the hierarchy and select the Areas you wish view. This will allow you to select up to 100 Areas.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">The widget settings include the following items.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
                                         <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
-                                            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
+                                            <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;" data-mc-conditions="Default.HideFunctionality">
                                             </col>
-                                            <col class="TableStyle-Basic-Column-Column1">
+                                            <col class="TableStyle-Basic-Column-Column1" data-mc-conditions="Default.HideFunctionality">
                                             </col>
                                             <thead>
                                                 <tr class="TableStyle-Basic-Head-Header1">
                                                     <th class="TableStyle-Basic-HeadE-Column1-Header1">
-                                                        <p>Property	</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Property	</p>
                                                     </th>
                                                     <th class="TableStyle-Basic-HeadD-Column1-Header1">
-                                                        <p>Description</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Description</p>
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Area Filters</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Area Filters</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>	Navigate through the hierarchy and select the Areas you wish view.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">	Navigate through the hierarchy and select the Areas you wish view.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Title: Show Title</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Title: Show Title</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>Select the toggle button to choose to show the chart title or not.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart title or not.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Title: Title Position</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Title: Title Position</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">	Choose the Chart Title location. Options include Bottom, Top, Right and Left.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Chart Legend: Show Legend</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Legend: Show Legend</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>Select the toggle button to choose to show the chart legend or not.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Select the toggle button to choose to show the chart legend or not.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                                                        <p>Chart Legend: Legend Position</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Chart Legend: Legend Position</p>
                                                     </td>
                                                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                                                        <p>Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
+                                                        <p data-mc-conditions="Default.HideFunctionality">Choose the Chart Legend location. Options include Bottom, Top, Right and Left.</p>
                                                     </td>
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <p>&#160;</p>
-                                        <p>In the widget, you can hover over sections of the pie chart to see the number of Hazard Scenarios per category.</p>
-                                        <h3 data-mc-conditions="Default.ScreenOnly">Hazard Scenarios Mitigated Pie Chart</h3>
-                                        <p>The Hazard Scenarios Mitigated widget provides a pie chart showing the number of Hazard Scenarios that were successfully mitigated vs. those that were not.</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">&#160;</p>
+                                        <p data-mc-conditions="Default.HideFunctionality">In the widget, you can hover over sections of the pie chart to see the number of Hazard Scenarios per category.</p>
+                                        <h3 data-mc-conditions="Default.ScreenOnly">Hazard Scenarios Mitigated Donut Chart</h3>
+                                        <p>The Hazard Scenarios Mitigated widget provides a donut chart showing the number of Hazard Scenarios that were successfully mitigated vs. those that were not.</p>
                                         <p>&#160;</p>
                                         <p style="text-align: center;">
                                             <img src="../Resources/Graphics/5-01 Analysis/5-05-02-06 Hazards Widget Hazard Scenarios Mitigated Pie Chart_480x320.png" style="width: 480;height: 320;">

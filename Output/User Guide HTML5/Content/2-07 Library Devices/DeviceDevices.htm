@@ -3,7 +3,6 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Devices</title>
         <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
         <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
@@ -132,7 +131,7 @@
                                         </p>
                                         <p>&#160;</p>
                                         <p style="text-align: center;">
-                                            <img src="../Resources/Graphics/2-01 SILstat Settings/2-07-04 Device Devices_480x320.png" style="width: 480;height: 320;">
+                                            <img src="../Resources/Graphics/2-01 SILstat Settings/2-07-04 Device Devices_480x190.png" style="width: 480;height: 190;">
                                             </img>
                                         </p>
                                         <p>&#160;</p>
@@ -156,26 +155,10 @@
                                             <tbody>
                                                 <tr class="TableStyle-Basic-Body-Body1">
                                                     <td class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Manufacturer</p>
-                                                    </td>
-                                                    <td class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>Manufacturers can be associated with Device Models. Once the Device’s Model is set, the Manufacturer will show here.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td class="TableStyle-Basic-BodyE-Column1-Body1">
                                                         <p>Device Model</p>
                                                     </td>
                                                     <td class="TableStyle-Basic-BodyD-Column1-Body1">
                                                         <p>Device Models can be added to the Device Model library and associated with Devices by selecting from the drop-down list.</p>
-                                                    </td>
-                                                </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td class="TableStyle-Basic-BodyE-Column1-Body1">
-                                                        <p>Serial Number</p>
-                                                    </td>
-                                                    <td class="TableStyle-Basic-BodyD-Column1-Body1">
-                                                        <p>This can be entered as text.</p>
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
@@ -195,18 +178,54 @@
                                                     </td>
                                                 </tr>
                                                 <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
+                                                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                                                        <p>Manufacturer</p>
+                                                    </td>
+                                                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                                                        <p>Manufacturers can be associated with Device Models. Once the Device’s Model is set, the Manufacturer will show here.</p>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>&#160;</p>
+                                        <p>You can input the following properties for the Device in the Operations section. </p>
+                                        <table style="width: 100%;">
+                                            <col style="width: 1.75in;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <thead>
+                                                <tr>
+                                                    <th style="background-color: #ffff00;">
+                                                        <p>Property	</p>
+                                                    </th>
+                                                    <th style="background-color: #ffff00;">
+                                                        <p>Description</p>
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <p>Serial Number</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>This can be entered as text.</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td valign="top">
                                                         <p>Utilization</p>
                                                     </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
+                                                    <td valign="top">
                                                         <p>This can be entered as a percent.</p>
                                                     </td>
                                                 </tr>
-                                                <tr class="TableStyle-Basic-Body-Body1">
-                                                    <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
+                                                <tr>
+                                                    <td valign="top">
                                                         <p>Proven  In Use</p>
                                                     </td>
-                                                    <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
+                                                    <td valign="top">
                                                         <p>	Proven In Use justifications documented in exSILentia can be imported into SILstat and shown here for each Device.</p>
                                                     </td>
                                                 </tr>
@@ -214,10 +233,11 @@
                                         </table>
                                         <p>&#160;</p>
                                         <p>The Lifecycle Section shows all events associated with the Device.</p>
-                                        <p>The Hierarchy section shows all Parents and Children  associated with the Device. Parents include Tags associated with SIF Safeguards.</p>
+                                        <p>The Hierarchy section shows all Parents and Children  associated with the Device. Parents include Areas and Tags associated with SIF Safeguards.</p>
+                                        <p>The Selected Failures section shows the failure rates that are applicable to the specific application of the Device. </p>
                                         <p>The Common Properties section shows all Resources, References and Labels associated with the item.</p>
                                         <p>To create a new item, select the <b>Create</b> button in the top right-hand corner. Items that are not created will be saved as a draft.</p>
-                                        <p>The Insights on the Device view shows Demands, Failures, Actual PFD, Actual Risk Reduction Factor, Operating Hours, and Children.</p>
+                                        <p>The Insights on the Device view shows Demands, Failures, and Operating Hours. </p>
                                         <p>To delete the item, select the <b>Delete</b> button in the top right-hand corner. After deleting the item, it becomes a <i>soft delete</i>. A <i>soft delete</i> means the item can be recovered with the help of exida for a period of 180 days. After that period is over, the item will become permanently deleted.</p>
                                     </div>
                                 </div>
