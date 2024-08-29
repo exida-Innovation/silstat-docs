@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro?styles=14484,14489,14486,14490,14491,14485,14483,14482,14488,14487,14493,14492');
 @namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 /*<meta />*/
 
@@ -170,7 +170,8 @@ MadCap|helpControlMenuItem.Highlighted
 
 h1
 {
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 	font-size: 20pt;
 	page-break-before: always;
@@ -180,7 +181,8 @@ h1
 
 h2
 {
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 	font-size: 16pt;
 }
@@ -188,7 +190,8 @@ h2
 h3
 {
 	font-size: 14pt;
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 }
 
