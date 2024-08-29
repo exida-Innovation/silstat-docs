@@ -168,7 +168,8 @@ MadCap|helpControlMenuItem.Highlighted
 
 h1
 {
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 	font-size: 20pt;
 	page-break-before: always;
@@ -178,7 +179,8 @@ h1
 
 h2
 {
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 	font-size: 16pt;
 }
@@ -186,7 +188,8 @@ h2
 h3
 {
 	font-size: 14pt;
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	color: #f04c23;
 }
 
@@ -366,7 +369,8 @@ MadCap|xref.Chapter_Section_NumberOnly
 h4
 {
 	color: #f04c23;
-	font-family: 'Source Sans Pro Semibold';
+	font-family: 'Source Sans Pro';
+	font-weight: 600;
 	font-size: 12pt;
 	mc-heading-level: 0;
 	margin-bottom: 1.12em;
