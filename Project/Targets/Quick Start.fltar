@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Quick Start SILstat User Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
+  PatchHeadingLevels="false"
+  InjectEmptyPages="false"
+  MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  OutputFolder="C:\Users\SarahO'Brien\OneDrive - Exida\Documents\SILstat\User Guide"
+  MasterToc="/Project/TOCs/Quick Start.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="footnote"
+    PopupConversion="footnote"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="doc" />
+  <DocumentProperties
+    Title="SILstat User Guide"
+    Author="exida Innovation LLC"
+    CopyrightStatus="true"
+    CopyrightNotice="Copyright © 2024 exida Innovation LLC. All rights reserved." />
+  <PDF
+    ShowUsedBookmarks="true"
+    InitialMagnification="100"
+    TitleBar="FileName"
+    CollapsedBookmarks="false"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="false"
+    PageLayout="TwoPageRight" />
+</CatapultTarget>
