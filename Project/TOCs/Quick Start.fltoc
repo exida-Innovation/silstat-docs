@@ -124,6 +124,24 @@
       ChapterNumberReset="continue" />
   </TocEntry>
   <TocEntry
+    Title="3-00 Part 3"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/X4Part.flpgl"
+    VolumeNumberReset="continue"
+    SectionNumberReset="continue"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/3-00 Part 3/Part_3.htm"
+      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      VolumeNumberReset="continue"
+      StartSection="false"
+      SectionNumberReset="continue"
+      ChapterNumberReset="continue" />
+  </TocEntry>
+  <TocEntry
     Title="3-01 Configuration"
     ChapterNumberReset="same"
     BreakType="chapter"
@@ -170,24 +188,6 @@
       Link="/Content/3-01 Configuration/ProceduresHierarchy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       StartSection="true"
       PageNumberReset="continue" />
-    <TocEntry
-      Title="3-00 Part 3"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/X4Part.flpgl"
-      VolumeNumberReset="continue"
-      SectionNumberReset="continue"
-      ChapterNumberReset="continue">
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/3-00 Part 3/Part_3.htm"
-        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
-        VolumeNumberReset="continue"
-        StartSection="false"
-        SectionNumberReset="continue"
-        ChapterNumberReset="continue" />
-    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="4-00 Part 4"
@@ -308,7 +308,9 @@
     PageNumberReset="continue"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
-    ChapterNumberReset="continue">
+    ChapterNumberReset="continue"
+    conditions="Default.HideFunctionality"
+    ComputeToc="false">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/6-05 Index/Index.htm"

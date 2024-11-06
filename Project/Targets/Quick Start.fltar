@@ -5,7 +5,7 @@
   Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
-  ConditionTagExpression="include[Default.PrintOnly] exclude[Default.ScreenOnly] "
+  ConditionTagExpression="include[Default.PrintOnly], exclude[Default.HideFunctionality or Default.ScreenOnly]"
   PatchHeadingLevels="false"
   InjectEmptyPages="false"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
