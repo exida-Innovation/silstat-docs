@@ -2,11 +2,12 @@
 
 body
 {
-	font-family: Arial;
-	font-size: 13px;
-	line-height: 1.7em;
 	margin: 17px;
 	max-width: 750px;
+	font-size: 10pt;
+	font-family: sans-serif;
+	color: #636466;
+	line-height: 1.10em;
 }
 
 h1,
@@ -168,32 +169,32 @@ MadCap|helpControlMenuItem.Highlighted
 
 h1
 {
-	font-family: 'Source Sans Pro Semibold';
 	color: #f04c23;
 	font-size: 20pt;
 	page-break-before: always;
 	page-break-after: avoid;
 	page-break-inside: avoid;
+	font-family: sans-serif;
 }
 
 h2
 {
-	font-family: 'Source Sans Pro Semibold';
 	color: #f04c23;
 	font-size: 16pt;
+	font-family: sans-serif;
 }
 
 h3
 {
 	font-size: 14pt;
-	font-family: 'Source Sans Pro Semibold';
 	color: #f04c23;
+	font-family: sans-serif;
 }
 
 p
 {
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	color: #636466;
 	mc-hyphenate: never;
 	margin-top: 1.12em;
@@ -202,19 +203,19 @@ p
 
 MadCap|footnotesBlock
 {
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	color: #636466;
 }
 
 MadCap|footnoteBlock
 {
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	color: #636466;
 }
 
 MadCap|footnote
 {
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-size: 8pt;
 	color: #636466;
 }
@@ -366,7 +367,7 @@ MadCap|xref.Chapter_Section_NumberOnly
 h4
 {
 	color: #f04c23;
-	font-family: 'Source Sans Pro Semibold';
+	font-family: sans-serif;
 	font-size: 12pt;
 	mc-heading-level: 0;
 	margin-bottom: 1.12em;
