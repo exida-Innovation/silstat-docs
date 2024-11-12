@@ -305,10 +305,12 @@
   </TocEntry>
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/6-06 OnlneOnly/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/6-06 OnlneOnly/FAQs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="Default.HideFunctionality" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
-    Link="/Content/6-06 OnlneOnly/Tips.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    Link="/Content/6-06 OnlneOnly/Tips.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    conditions="Default.HideFunctionality" />
   <TocEntry
     Title="[%=System.LinkedTitle%]"
     Link="/Content/6-06 OnlneOnly/Company.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
