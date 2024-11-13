@@ -57,7 +57,6 @@
         </table>
         <p>&#160;</p>
         <p>To create the User Role, select the <b>Create</b> button in the top right-hand corner. Items that are not created will be saved as a draft.</p>
-        <p>The Insights show you how many User and Shared Dashboards are associated with this User Role.</p>
         <p>To delete the item, select the <b>Delete</b> button in the top right-hand corner. After deleting the item, it becomes a <i>soft delete</i>. A <i>soft delete</i> means the item can be recovered with the help of exida for a period of 180 days. After that period is over, the item will become permanently deleted.</p>
         <p>The Permissions section allows you to specify what access this User Role will have to each application. This includes:</p>
         <p>
@@ -66,8 +65,8 @@
                 <li>SILstat Permissions</li>
                 <li>Dashboard Permissions</li>
                 <li>API Permissions</li>
-                <li>Area Filters</li>
             </ul>
+            <p>The Insights show you how many Users are associated with this User Role.</p>
         </p>
         <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.1 ">        General Permissions</h3>
         <h3 MadCap:conditions="Default.ScreenOnly">        General Permissions</h3>
@@ -80,7 +79,7 @@
             <ul>
                 <li>	Configuration Permissions</li>
                 <li>Collection Permissions</li>
-                <li>Approval Permissions</li>
+                <li MadCap:conditions="Default.HideFunctionality">Approval Permissions</li>
                 <li>Report Permissions</li>
             </ul>
         </p>
@@ -228,10 +227,10 @@
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Remove Events</p>
+                        <p>Decommission Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to perform Remove Events.</p>
+                        <p>Grants permission to perform Decommission Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
@@ -254,8 +253,8 @@
         </table>
         <p><![CDATA[	]]></p>
         <p>To enable a permission, toggle from <b>Off</b> to <b>On</b> next to that permission. To enable all Collections Permissions at once, select the <b>Enable All</b> button in that section.</p>
-        <p>For Approval Permissions, the following options are available for this User Role:</p>
-        <p>&#160;</p>
+        <p MadCap:conditions="Default.HideFunctionality">For Approval Permissions, the following options are available for this User Role:</p>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
         <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
             <col class="TableStyle-Basic-Column-Column1" style="width: 1.75in;">
             </col>
@@ -264,90 +263,90 @@
             <thead>
                 <tr class="TableStyle-Basic-Head-Header1">
                     <th class="TableStyle-Basic-HeadE-Column1-Header1">
-                        <p>Property	</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Property	</p>
                     </th>
                     <th class="TableStyle-Basic-HeadD-Column1-Header1">
-                        <p>Description</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Description</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Install Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Install Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>	Grants permission to approve, reject, or complete Install Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">	Grants permission to approve, reject, or complete Install Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Bypass and Remove Bypass Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Bypass and Remove Bypass Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to approve, reject, or complete Bypass or Remove Bypass Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Grants permission to approve, reject, or complete Bypass or Remove Bypass Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Procedure Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Procedure Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to approve, reject, or complete Procedure Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Grants permission to approve, reject, or complete Procedure Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Failure Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Failure Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>	Grants permission to approve, reject, or complete Failure Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">	Grants permission to approve, reject, or complete Failure Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Hazard Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Hazard Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>	Grants permission to approve, reject, or complete Hazard Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">	Grants permission to approve, reject, or complete Hazard Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Repair Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Repair Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to approve, reject, or complete Repair Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Grants permission to approve, reject, or complete Repair Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Replace Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Replace Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to approve, reject, or complete Replace Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Grants permission to approve, reject, or complete Replace Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyE-Column1-Body1">
-                        <p>Remove Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Remove Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyD-Column1-Body1">
-                        <p>Grants permission to approve, reject, or complete Remove Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Grants permission to approve, reject, or complete Remove Events.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-Basic-Body-Body1">
                     <td valign="top" class="TableStyle-Basic-BodyB-Column1-Body1">
-                        <p>Move Events</p>
+                        <p MadCap:conditions="Default.HideFunctionality">Move Events</p>
                     </td>
                     <td valign="top" class="TableStyle-Basic-BodyA-Column1-Body1">
-                        <p>	Grants permission to approve, reject, or complete Move Events.</p>
+                        <p MadCap:conditions="Default.HideFunctionality">	Grants permission to approve, reject, or complete Move Events.</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
-        <p>To enable a permission, toggle from <b>Off</b> to <b>On</b> next to that permission. To enable all Approval Permissions at once, select the <b>Enable All</b> button in that section.</p>
+        <p MadCap:conditions="Default.HideFunctionality">&#160;</p>
+        <p MadCap:conditions="Default.HideFunctionality">To enable a permission, toggle from <b>Off</b> to <b>On</b> next to that permission. To enable all Approval Permissions at once, select the <b>Enable All</b> button in that section.</p>
         <p>For Report Permissions, the following options are available for this User Role:</p>
         <p>&#160;</p>
         <table class="TableStyle-Basic" cellspacing="0" style="mc-table-style: url('../Resources/TableStyles/Basic.css');width: 100%;">
@@ -397,6 +396,39 @@
             </ul>
         </p>
         <p>To enable a permission, toggle from <b>Off</b> to <b>On</b> next to that permission. To enable all Shared Dashboard Permissions at once, select the <b>Enable All</b> button in that section.</p>
+        <table style="width: 100%;">
+            <col style="width: 1.75in;" />
+            <col />
+            <thead>
+                <tr>
+                    <th>
+                        <p>Property	</p>
+                    </th>
+                    <th>
+                        <p>Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td valign="top">
+                        <p>System Dashboards</p>
+                    </td>
+                    <td valign="top">
+                        <p>Grants permission to allow System Dashboards to be viewed.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <p>Dashboard Area Filters</p>
+                    </td>
+                    <td valign="top">
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>&#160;</p>
         <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.4 ">        API Permissions</h3>
         <h3 MadCap:conditions="Default.ScreenOnly">        API Permissions</h3>
         <p>For the API, the following permissions are available to the User Role:</p>
@@ -407,10 +439,10 @@
             </ul>
         </p>
         <p>To enable a permission, toggle from <b>Off</b> to <b>On</b> next to that permission.</p>
-        <h3 class="Section" MadCap:conditions="Default.PrintOnly" MadCap:autonum="1.1.5 ">        Area Filters</h3>
-        <h3 MadCap:conditions="Default.ScreenOnly">        Area Filters</h3>
-        <p>For Area  Filters, select specific Areas in the hierarchy the User Role is given access to.</p>
-        <p>The Shared Dashboards section allows you to indicate which Shared Dashboards this User Role can access. Select the <b>Add</b> button to see available Dashboards. Toggle from <b>Off</b> to <b>On</b> to grant access to this User Role.</p>
-        <p>The Users section allows you to indicate which Users should have this User Role. Select the <b>Add</b> button to see available Users. Toggle from <b>Off</b> to <b>On</b> to assign this User Role to each User.</p>
+        <h3 class="Section" MadCap:conditions="Default.HideFunctionality" MadCap:autonum="1.1.5 ">        Area Filters</h3>
+        <h3 MadCap:conditions="Default.HideFunctionality">        Area Filters</h3>
+        <p MadCap:conditions="Default.HideFunctionality">For Area  Filters, select specific Areas in the hierarchy the User Role is given access to.</p>
+        <p MadCap:conditions="Default.HideFunctionality">The Shared Dashboards section allows you to indicate which Shared Dashboards this User Role can access. Select the <b>Add</b> button to see available Dashboards. Toggle from <b>Off</b> to <b>On</b> to grant access to this User Role.</p>
+        <p MadCap:conditions="Default.HideFunctionality">The Users section allows you to indicate which Users should have this User Role. Select the <b>Add</b> button to see available Users. Toggle from <b>Off</b> to <b>On</b> to assign this User Role to each User.</p>
     </body>
 </html>
