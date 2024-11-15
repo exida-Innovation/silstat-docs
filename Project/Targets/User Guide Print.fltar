@@ -10,9 +10,10 @@
   InjectEmptyPages="false"
   MasterPageLayout="/Content/Resources/PageLayouts/X4.flpgl"
   MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
-  OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs"
+  OutputFolder="C:\Users\SarahO'Brien\Downloads"
   MasterToc="/Project/TOCs/User Guide Print.fltoc"
-  OutputFile="SILstat User Guide">
+  OutputFile="SILstat User Guide"
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="footnote"
