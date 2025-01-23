@@ -225,7 +225,7 @@
       Link="/Content/4-01 Collection/RecordingEvents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/Resources/EventInstall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/4-01 Collection/EventInstall.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/4-01 Collection/EventBypass.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
