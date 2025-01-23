@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated User Guide HTML5.fltar" Date="2024-11-08T14:29:05.4051217-05:00" Branch="First-release-SILstat-documentation-Iwan" Commit="1996f2adb397a2fa07da44d67cb2494e679c4329">
+<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated User Guide HTML5.fltar" Date="2025-01-23T16:30:21.9230617-05:00" Branch="First-release-SILstat-documentation-Iwan" Commit="c15183c3440e0fa44c34308662d51eb0dbe10bd4">
     <Messages>Compiling target User Guide HTML5...
 Removing previously generated content...
 Loading skin info...
@@ -11,6 +11,9 @@ Generating Glossary...
 Collecting source files...
 Processing source files...
 Image "exsilentia.png" regenerated for "" medium: Resources\Graphics\exsilentia.png
+Image "1-02-01 HomePage.png" regenerated for "" medium: Resources\Graphics\1-01 Introduction\1-02-01 HomePage.png
+Image "1-03-01 UserProfile.png" regenerated for "" medium: Resources\Graphics\1-01 Introduction\1-03-01 UserProfile.png
+Image "1-04-01 AdminCenter.png" regenerated for "" medium: Resources\Graphics\1-01 Introduction\1-04-01 AdminCenter.png
 Image "1-04-02 Users.png" regenerated for "" medium: Resources\Graphics\1-01 Introduction\1-04-02 Users.png
 Image "1-04-03 User Roles.png" regenerated for "" medium: Resources\Graphics\1-01 Introduction\1-04-03 User Roles.png
 Image "2-01-01 SILstat Settings.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-01-01 SILstat Settings.png
@@ -31,17 +34,23 @@ Image "2-01-15 Repair Types.png" regenerated for "" medium: Resources\Graphics\2
 Image "2-02-01 SILstat Library.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-02-01 SILstat Library.png
 Image "2-03-01 Physical Library.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-03-01 Physical Library.png
 Image "2-03-02 Physical Areas.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-03-02 Physical Areas.png
+Image "2-03-03 Physical Locations.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-03-03 Physical Locations.png
 Image "2-03-04 Physical Tags.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-03-04 Physical Tags.png
 Image "2-04-01 Hazard Library.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-01 Hazard Library.png
 Image "2-04-02 Hazard InitiatingEventModels.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-02 Hazard InitiatingEventModels.png
 Image "2-04-03 Hazard InitiatingEvents.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-03 Hazard InitiatingEvents.png
 Image "2-04-04 Hazard Hazards.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-04 Hazard Hazards.png
+Image "2-04-05 Hazard EnablingConditionModels.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-05 Hazard EnablingConditionModels.png
+Image "2-04-06 Hazard EnablingConditions.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-06 Hazard EnablingConditions.png
+Image "2-04-07 Hazard ConditionalModifierModels.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-07 Hazard ConditionalModifierModels.png
+Image "2-04-08 Hazard ConditionalModifiers.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-04-08 Hazard ConditionalModifiers.png
 Image "2-05-01 SIF Library.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-01 SIF Library.png
 Image "2-05-02 SIF Safeguard Models.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-02 SIF Safeguard Models.png
 Image "2-05-03 SIF Safeguards.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-03 SIF Safeguards.png
 Image "2-05-04 SIF Sensor Groups.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-04 SIF Sensor Groups.png
 Image "2-05-05 SIF Logic Solver Groups.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-05 SIF Logic Solver Groups.png
 Image "2-05-06 SIF Final Element Groups.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-06 SIF Final Element Groups.png
+Image "2-05-07 SIF SIF Diagram.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-05-07 SIF SIF Diagram.png
 Image "2-06-01 Safeguard Library.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-06-01 Safeguard Library.png
 Image "2-06-02 Alarm Safeguard Models.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-06-02 Alarm Safeguard Models.png
 Image "2-06-03 Alarm Safeguards.png" regenerated for "" medium: Resources\Graphics\2-01 SILstat Settings\2-06-03 Alarm Safeguards.png
@@ -70,9 +79,37 @@ Image "4-03-02 Bypass.png" regenerated for "" medium: Resources\Graphics\4-01 Co
 Image "4-03-03 Failure.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-03 Failure.png
 Image "4-03-04 Repair.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-04 Repair.png
 Image "4-03-05 Replace.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-05 Replace.png
+Image "4-03-07 Decommission.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-07 Decommission.png
 Image "4-03-08 Hazard.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-08 Hazard.png
 Image "4-03-09 Procedure.png" regenerated for "" medium: Resources\Graphics\4-01 Collection\4-03-09 Procedure.png
 Image "5-02-01 Dashboard.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-02-01 Dashboard.png
+Image "5-05-01 Failures Dashboard.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01 Failures Dashboard.png
+Image "5-05-01-01 Failures Widget Device Model-Type Overview Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-01 Failures Widget Device Model-Type Overview Grid.png
+Image "5-05-01-02 Failures Widget Failure History Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-02 Failures Widget Failure History Grid.png
+Image "5-05-01-03 Failures Widget Failure Modes by Device Model Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-03 Failures Widget Failure Modes by Device Model Pie Chart.png
+Image "5-05-01-04 Failures Widget Failure Modes by Device Type Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-04 Failures Widget Failure Modes by Device Type Pie Chart.png
+Image "5-05-01-05 Failures Widget Resolution  by Device Model Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-05 Failures Widget Resolution  by Device Model Pie Chart.png
+Image "5-05-01-06 Failures Widget Resolution by Device Type Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-01-06 Failures Widget Resolution by Device Type Pie Chart.png
+Image "5-05-02 Hazards Dashboard.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-02 Hazards Dashboard.png
+Image "5-05-02-01 Hazards Widget Hazard Event Overview Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-02-01 Hazards Widget Hazard Event Overview Grid.png
+Image "5-05-02-02 Hazards Widget Hazard Event History Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-02-02 Hazards Widget Hazard Event History Grid.png
+Image "5-05-02-04 Hazards Widget Safeguard Probability of Failure Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-02-04 Hazards Widget Safeguard Probability of Failure Pie Chart.png
+Image "5-05-02-06 Hazards Widget Hazard Scenarios Mitigated Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-02-06 Hazards Widget Hazard Scenarios Mitigated Pie Chart.png
+Image "5-05-03 Procedures Dashboard.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03 Procedures Dashboard.png
+Image "5-05-03-01 Procedures Widget Procedures Upcoming Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-01 Procedures Widget Procedures Upcoming Chart.png
+Image "5-05-03-02 Procedures Widget Procedures Overdue Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-02 Procedures Widget Procedures Overdue Chart.png
+Image "5-05-03-03 Procedures Widget Procedures Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-03 Procedures Widget Procedures Grid.png
+Image "5-05-03-05 Procedures Widget Procedures Completed on Time Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-05 Procedures Widget Procedures Completed on Time Pie Chart.png
+Image "5-05-03-06 Procedures Widget Procedures Completed.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-06 Procedures Widget Procedures Completed.png
+Image "5-05-03-07 Procedures Widget Proof Test Passed Pie Chart.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-03-07 Procedures Widget Proof Test Passed Pie Chart.png
+Image "5-05-04 Warning Signs Dashboard.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04 Warning Signs Dashboard.png
+Image "5-05-04-01 Warning Signs Widget Warning Signs Summary Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-01 Warning Signs Widget Warning Signs Summary Grid.png
+Image "5-05-04-02 Warning Signs Widget Safeguards Bypassed Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-02 Warning Signs Widget Safeguards Bypassed Grid.png
+Image "5-05-04-03 Warning Signs Widget Physical Hierarchy Bypassed Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-03 Warning Signs Widget Physical Hierarchy Bypassed Grid.png
+Image "5-05-04-04 Warning Signs Widget Device Model Failure Rate Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-04 Warning Signs Widget Device Model Failure Rate Grid.png
+Image "5-05-04-05 Warning Signs Widget Procedures Overdue Grid.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-05 Warning Signs Widget Procedures Overdue Grid.png
+Image "5-05-04-07 Warning Signs Widget Procedures Overdue Count.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-07 Warning Signs Widget Procedures Overdue Count.png
+Image "5-05-04-08 Warning Signs Widget Proof Tests Overdue Count.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-05-04-08 Warning Signs Widget Proof Tests Overdue Count.png
 Image "5-06-01 Reports.png" regenerated for "" medium: Resources\Graphics\5-01 Analysis\5-06-01 Reports.png
 Processing CSS: Resources\Stylesheets\Modern-html5.css...
 Processing CSS: Resources\Stylesheets\Modern.css...
@@ -272,9 +309,9 @@ Generated 4-01 Collection\Collection.htm
 Processing topic: 4-01 Collection\RecordingEvents.htm...
 Applying template page Other-Topics.flmsp...
 Generated 4-01 Collection\RecordingEvents.htm
-Processing topic: Resources\EventInstall.htm...
+Processing topic: 4-01 Collection\EventInstall.htm...
 Applying template page Other-Topics.flmsp...
-Generated Resources\EventInstall.htm
+Generated 4-01 Collection\EventInstall.htm
 Processing topic: 4-01 Collection\EventBypass.htm...
 Applying template page Other-Topics.flmsp...
 Generated 4-01 Collection\EventBypass.htm
@@ -321,27 +358,6 @@ Processing topic: 5-05 System Dashboards\HazardsDashboard.htm...
 Applying template page Other-Topics.flmsp...
 Generated 5-05 System Dashboards\HazardsDashboard.htm
 Processing topic: 5-05 System Dashboards\ProceduresDashboard.htm...
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing table style C:\SarahO'Brien\OneDrive - Exida\Documents\GitHub\silstat-docs\Content\Resources\TableStyles\Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Missing linked stylesheet file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Link points outside project file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
-Link points outside project file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css
 Applying template page Other-Topics.flmsp...
 Generated 5-05 System Dashboards\ProceduresDashboard.htm
 Processing topic: 5-05 System Dashboards\WarningSignsDashboard.htm...
@@ -433,34 +449,12 @@ Generated Skins\Default\Stylesheets\TextEffects.micro-content.css
 Generated Skins\Default\Stylesheets\Topic.micro-content.css
 Generated Default.htm
 Saving result set...
-Ignored Compiler Warnings: 254
+Ignored Compiler Warnings: 245
 Output generated in 14 second(s).
 
 Done
 Saving log to "C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs\Output\User Guide HTML5\User Guide HTML5.mclog"
 </Messages>
-    <Warnings>
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" Target="User Guide HTML5" ErrorID="10010" />
-        <LogEntry Message="Missing table style C:\SarahO'Brien\OneDrive - Exida\Documents\GitHub\silstat-docs\Content\Resources\TableStyles\Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="BoxLayout" ErrorID="10008" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry Message="Missing linked stylesheet file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="CSS" ErrorID="10010" />
-        <LogEntry File="../../../Content/5-05 System Dashboards/ProceduresDashboard.htm" Message="Link points outside project file:///C:/SarahO'Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="User Guide HTML5" ErrorID="10056" />
-        <LogEntry File="../../../Content/5-05 System Dashboards/ProceduresDashboard.htm" Message="Link points outside project file:///C:/SarahO%27Brien/OneDrive - Exida/Documents/GitHub/silstat-docs/Content/Resources/TableStyles/Basic.css&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Compiler" Target="User Guide HTML5" ErrorID="10056" />
-    </Warnings>
+    <Warnings />
     <Errors />
 </MadCapLog>
