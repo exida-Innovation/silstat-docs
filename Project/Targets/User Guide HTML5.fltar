@@ -2,7 +2,7 @@
 <CatapultTarget
   Version="2"
   Comment="User Guide HTML5"
-  Type="WebHelp2"
+  Type="PDF"
   Destinations=""
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/Other-Topics.flmsp"
@@ -11,11 +11,17 @@
   ShowMadCapBacklink="false"
   MasterToc="/Project/TOCs/User Guide HTML5.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/Modern-html5.css"
+<<<<<<< Updated upstream
   Skin="/Project/Skins/Side-Navigation-X4.flskn"
   OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs">
+=======
+  OutputFolder="C:\Users\SarahO'Brien\OneDrive - Exida\Documents\SILstat\User Guide"
+  GetLatestBeforeCompile="true">
+>>>>>>> Stashed changes
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
     GenerateIndexProxy="true"
-    GenerateGlossaryProxy="true" />
+    GenerateGlossaryProxy="true"
+    OutputFormat="doc" />
 </CatapultTarget>
