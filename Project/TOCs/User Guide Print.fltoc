@@ -674,7 +674,8 @@
     StartSection="false"
     PageNumberReset="continue"
     SectionNumberReset="continue"
-    VolumeNumberReset="same">
+    VolumeNumberReset="same"
+    conditions="Default.HideFunctionality">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/5-01 Analysis/Analysis.htm"

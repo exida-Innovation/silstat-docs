@@ -255,7 +255,8 @@
     Title="Part 5 Analysis">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/5-01 Analysis/Analysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/5-01 Analysis/Analysis.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      conditions="Default.HideFunctionality" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/5-02 Dashboard/Dashboard.htm"
