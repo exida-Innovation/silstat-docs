@@ -801,6 +801,18 @@
       MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
+    Title="6-03 TermsOfServiceLicenseAgreement"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/6-03 TermsOfServiceLicenseAgreement/TermsOfServiceLicenseAgreementv02.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
     Title="6-04 OpenSourceDisclosure"
     BreakType="chapter"
     StartSection="false"
