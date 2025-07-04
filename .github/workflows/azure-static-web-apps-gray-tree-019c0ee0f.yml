@@ -3,11 +3,11 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - First-release-SILstat-documentation-Iwan
+      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - First-release-SILstat-documentation-Iwan
+      - main
 
 jobs:
   build_and_deploy_job:
