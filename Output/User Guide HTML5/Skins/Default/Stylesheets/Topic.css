@@ -445,37 +445,6 @@ div.MCBreadcrumbsBox_0
 	margin-bottom: 10px;
 }
 
-.dropDownHotspot
-{
-	text-decoration: none;
-}
-
-.dropDownHotspot:link
-{
-	text-decoration: none;
-}
-
-.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('minus.png');
-	padding-left: 2px;
-	padding-right: 0;
-}
-
-.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
-{
-	background-position: left;
-	background-image: url('plus.png');
-	padding-left: 2px;
-	padding-right: 0;
-}
-
-.dropDownHead
-{
-	text-decoration: none;
-}
-
 div.MCTocProxy_0
 {
 	border-top-width: 0px;
@@ -560,7 +529,7 @@ td.GenTOCText1
 	mc-leader-indent: 5pt;
 	color: #636466;
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-weight: bold;
 }
 
@@ -599,7 +568,7 @@ a.GenTOCText1:link
 	mc-leader-indent: 5pt;
 	color: #636466;
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -639,7 +608,7 @@ a.GenTOCText1
 	mc-leader-indent: 5pt;
 	color: #636466;
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -679,7 +648,7 @@ td.GenTOCAutoText1
 	margin: 0;
 	color: #636466;
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-weight: bold;
 }
 
@@ -718,7 +687,7 @@ td.GenTOCPageText1
 	vertical-align: bottom;
 	color: #636466;
 	font-size: 10pt;
-	font-family: 'Source Sans Pro';
+	font-family: sans-serif;
 	font-weight: bold;
 	text-align: right;
 	white-space: normal;

@@ -7,10 +7,10 @@
   GlossaryTermConversion="marked"
   MasterPage="/Content/Resources/MasterPages/Other-Topics.flmsp"
   DefaultUrl="/Content/Home.htm"
-  ConditionTagExpression="include[Default.ScreenOnly] exclude[Default.PrintOnly] "
+  ConditionTagExpression="include[Default.ScreenOnly], exclude[Default.HideFunctionality or Default.PrintOnly]"
   ShowMadCapBacklink="false"
   MasterToc="/Project/TOCs/User Guide HTML5.fltoc"
-  MasterStylesheet="/Content/Resources/Stylesheets/Modern.css"
+  MasterStylesheet="/Content/Resources/Stylesheets/Modern-html5.css"
   Skin="/Project/Skins/Side-Navigation-X4.flskn"
   OutputFolder="C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs">
   <PrintedOutput
