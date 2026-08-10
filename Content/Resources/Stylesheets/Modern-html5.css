@@ -27,7 +27,6 @@ p.example
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 	color: #636466;
-	background-color: #fbde64;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 14px;
@@ -44,6 +43,7 @@ p.example
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #636466;
+	background-color: #FDF2C1;
 }
 
 p.note
@@ -51,7 +51,6 @@ p.note
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
-	background-color: #f89921;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 5px;
@@ -69,6 +68,7 @@ p.note
 	border-bottom-width: 1px;
 	border-bottom-color: #b7b7b8;
 	color: #636466;
+	background-color: #FCD6A6;
 }
 
 a
@@ -395,7 +395,7 @@ p.caution
 	border-bottom-width: 1px;
 	border-bottom-color: #b7b7b8;
 	color: #636466;
-	background-color: #f04c23;
+	background-color: #F9B7A7;
 }
 
 p.TOC1

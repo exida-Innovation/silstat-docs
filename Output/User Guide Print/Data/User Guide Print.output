@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTargetOutput
+  GeneratedTarget="/Output/User Guide Print/SILstat User Guide.pdf"
+  BuildVersion="22.0.9643.36696">
+  <Files>
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/Images/Logo.eps" />
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/TableStyles/Basic.css" />
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/Graphics/exsilentia_v4_version_no.png" />
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/Graphics/exida_logo.png" />
+    <Url
+      Source="Output/User Guide Print/SILstat User Guide.pdf" />
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/Images/Hero-Image-Print.png" />
+    <Url
+      Source="Output/IwanvanBeurden/Temporary/User Guide Print/User Guide Print_2456F97B/Resources/Graphics/exsilentia_v4_bolierplate.png" />
+  </Files>
+  <Skins />
+</CatapultTargetOutput>

@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2024 r2 Generated User Guide Print.fltar" Date="2025-02-12T16:44:40.2530318-05:00" Branch="First-release-SILstat-documentation-Iwan" Commit="1b734d31beb06b84616f4414a8247e525fdcacf6">
+<MadCapLog Protocol="2" Description="MadCap Flare 2026 Generated User Guide Print.fltar" Date="2026-08-10T14:07:41.9369876-04:00" Branch="First-release-SILstat-documentation-Iwan" Commit="8573142329aad9ad2f742d24a3234365806774d4">
     <Messages>Compiling target User Guide Print...
 Getting the latest version of all files in the project...
 Querying source control server. This could take several minutes.
+From https://github.com/exida-Innovation/silstat-docs
+ * branch            HEAD       -&gt; FETCH_HEAD
+Already up to date.
 All files are up to date.
 Sync files from source control in 1 second(s).
 Removing previously generated content...
@@ -12,6 +15,9 @@ Loading Primary TOC...
 Processing Primary TOC...
 Generating Glossary...
 Processing Page Layouts...
+You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.
+
+https://www.madcapsoftware.com/downloads/ghostscript64.aspx
 Collecting source files...
 Processing source files...
 Processing topic: Titlepage.htm
@@ -356,11 +362,13 @@ Patching links and page references...
 Generated ../../../../User Guide Print/SILstat User Guide.pdf
 Saving result set...
 Ignored Compiler Warnings: 244
-Output generated in 56 second(s).
+Output generated in 58 second(s).
 
 Done
 Saving log to "C:\Users\IwanvanBeurden\Documents\GitHub\silstat-docs\Output\User Guide Print\User Guide Print.mclog"
 </Messages>
-    <Warnings />
+    <Warnings>
+        <LogEntry File="../../../Content/Resources/Images/Logo.eps" Message="You must install Ghostscript if you insert a postscript file (e.g., EPS, PS). Ghostscript allows these elements to be converted to a supported file type in the output. Ghostscript is also used to render vector graphics in the XML Editor. To install the latest version of Ghostscript, click the link below.&#xA;&#xA;https://www.madcapsoftware.com/downloads/ghostscript64.aspx&#xA;" LineIndex="-1" CharIndex="-1" Subsystem="Image Processor" Target="User Guide Print" ErrorID="10032" />
+    </Warnings>
     <Errors />
 </MadCapLog>
